@@ -1,0 +1,24 @@
+{
+  "name": "samplenode",
+  "version": "1.0.0",
+  "description": "To deploy in aws",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siriv1997/sampleNode.git"
+  },
+  "author": "Surendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siriv1997/sampleNode/issues"
+  },
+  "homepage": "https://github.com/siriv1997/sampleNode#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}
