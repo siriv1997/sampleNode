@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
 
 // sample API call
-app.get('/sampleGet',(req,res)=>{
+app.get('/',(req,res)=>{
     res.status(200).send({mes:'Hello World',data:'This is a sample API call'});
 })
 
